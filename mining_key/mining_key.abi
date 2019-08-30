@@ -1,0 +1,57 @@
+{
+    "____comment": "This file was generated with fractal-abigen. DO NOT EDIT ",
+    "version": "ftl::abi/0.2.0",
+    "types": [],
+    "structs": [
+        {
+            "name": "_key",
+            "base": "",
+            "fields": [
+                {
+                    "name": "addr",
+                    "type": "address"
+                }
+            ]
+        },
+        {
+            "name": "minerkey",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "_key"
+                },
+                {
+                    "name": "minerkey",
+                    "type": "uint8[]"
+                }
+            ]
+        },
+        {
+            "name": "setkey",
+            "base": "",
+            "fields": [
+                {
+                    "name": "bls_key",
+                    "type": "uint8[]"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "setkey",
+            "type": "setkey"
+        }
+    ],
+    "tables": [
+        {
+            "name": "minerkey",
+            "type": "minerkey",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "variants": []
+}

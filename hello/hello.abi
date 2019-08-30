@@ -1,0 +1,25 @@
+{
+    "____comment": "This file was generated with fractal-abigen. DO NOT EDIT ",
+    "version": "ftl::abi/0.2.0",
+    "types": [],
+    "structs": [
+        {
+            "name": "hi",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "hi",
+            "type": "hi"
+        }
+    ],
+    "tables": [],
+    "variants": []
+}
